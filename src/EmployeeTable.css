@@ -1,0 +1,84 @@
+/* Table container */
+.table-responsive {
+    padding: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top:150px;
+    left:100px;
+    overflow-x: hidden;
+  }
+  
+  /* General table styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+    color: #495057;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+  }
+  
+  .table td {
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  /* Header and cell styling */
+  .table th,
+  .table td {
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  /* Status text styling */
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  /* Radio buttons styling */
+  input[type="radio"] {
+    transform: scale(1.2);
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Make the table responsive at smaller screen sizes */
+  @media (max-width: 768px) {
+    .table th, .table td {
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+  }
+  .save-button-container {
+    position: relative;
+    top: -10px;   /* Adjusts the position from the top */
+    left: 88%;  /* Adjusts the position from the left */
+    padding: 10px;
+  }
+
+  .hover-effect {
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .hover-effect:hover {
+    background-color: rgb(117, 185, 103) !important;
+    border-color:rgb(117, 185, 103) !important;
+  }
