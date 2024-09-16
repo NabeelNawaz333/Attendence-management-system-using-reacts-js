@@ -1,8 +1,8 @@
 /* Sidebar.css */
 .sidebar {
-    width: 250px;
+    width: 255px;
     height: 100vh;
-    background-color:#acc9c7;
+    background-color:#BFBFBF;
     padding: 20px;
     position: fixed;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);

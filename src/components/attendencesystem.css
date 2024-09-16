@@ -2,4 +2,9 @@
     position: absolute;
     left:35%;
     top:30px;
+    background-color: rgb(151, 199, 226);
+    border-radius: 10px;
+    padding:10px;
 }
+
+
